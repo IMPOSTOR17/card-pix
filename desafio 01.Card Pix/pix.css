@@ -1,0 +1,70 @@
+*{
+    padding:0;
+margin:0;
+vertical-align:baseline;
+list-style:none;
+border:0
+}
+body, html{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #d6d4e2
+}
+#cards{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #d6d4e2;
+    gap: 10%;
+}
+#padrao{
+    width: 208px;
+    height: 244px;
+    background-color: #ffff;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}
+.ITEMS{
+    margin: 25px;
+    margin-bottom: 0;
+    color: #787490;
+    
+    font-size: 20PX;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#valor{
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#hover{
+    width: 208px;
+    height: 244px;
+    background-color: #18161f;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.ITEMS2{
+    margin: 25px;
+    margin-bottom: 0;
+    color: #ffffff;
+    
+    font-size: 20PX;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#valor2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
